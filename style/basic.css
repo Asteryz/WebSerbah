@@ -9,7 +9,7 @@ header
 }
 header h1
 {
-  color:#FF1168;
+  color:#310880;
   padding-left:0.5em;
   padding-top:0.5em;
 }
@@ -18,7 +18,7 @@ header p
   padding-right:2em;
   text-align:right;
   font-weight:bold;
-  color:#8F8F8F;
+  color:#ECECEC;
 }
 /* Website container */
 div.container
@@ -52,7 +52,8 @@ section span
   padding-right:1em;
   padding-left:1em;
   font-size:20pt;
-  background-color:#FF1168;
+  background-color:#310880;
+  color: #ECECEC;
 }
 /* Section content */
 section div
