@@ -102,3 +102,19 @@ table tr td
 {
   border:1px solid;
 }
+
+/*Floating Menu*/
+#floatMenu {
+	position:absolute;
+	top:150px;
+	left:50%;
+	margin-left:300px;
+	width:200px;
+}
+#floatMenu ul {
+	list-style-type:none;
+	margin-bottom:20px
+}
+#floatMenu ul li a {
+	display:block;
+}
