@@ -50,6 +50,10 @@ section span
   font-size:20pt;
   background-color:#FF1168;
 }
+section span.toggle:hover
+{
+	background-color:white;
+}
 /* Section content */
 section div
 {
