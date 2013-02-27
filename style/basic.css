@@ -32,7 +32,7 @@ div.container
   border-bottom-left-radius:2em;
 }
 /* Content area */
-div.content
+.content
 {
   margin-left:2em;
 }
@@ -93,11 +93,11 @@ table
 }
 table tr:nth-child(2n)
 {
-  background-color:#A0A0A0;
+  background-color:#B0B0B0;
 }
 table tr:nth-child(2n+1)
 {
-  background-color:#ff87b3
+  background-color:#a67df7;
 }
 table tr td
 {
