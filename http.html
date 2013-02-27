@@ -4,15 +4,19 @@
     <script type="text/javascript" src="libs/jquery.js"></script>
     <script type="text/javascript" src="scripts/references.js"></script>
 	<script type="text/javascript" src="scripts/menu.js"></script>
+	<script type="text/javascript" src="scripts/toggle.js"></script>
     <link rel='stylesheet' type="text/css" href="style/basic.css">
     <title>HTTP</title>
   </head>
-  <body>	
+  
+  <body>
+  
     <div class="container">
       <header>
         <h1>HyperText Transfer Protocol</h1>
         <p>Een website voor poort 80, door poort 80.</p>
       </header>
+	  
       <nav>
         <section>
           <span id="floatMenu">
@@ -20,24 +24,24 @@
 			<li><a href="index.html">Hoofdpagina</a></li>
 		</ul>
 		<ul>
-			<li><a href="#">Geschiedenis</a></li>
 			<li><a href="http.html">HTTP</a></li>
-			<li><a href="#">Toepassingen</a></li>
 		</ul>
           </span>
         </section>
       </nav>
+	  
       <div class="content">
         <section>
-          <span>Wat is HTTP?</span>
-          <div>
-            <p>HTTP<a class="source" href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HyperText Transfer Protocol</a> is een applicatie protocol dat aan de basis lag van het www. Het www (WorldWideWeb, of ook wel W3, of het Web) is in 1989 begonnen als een project binnen CERN door CERN-lid en wetenschapper Sir Tim Berners-Lee. Het web was en is een systeem bedoeld om documenten uit te wisselen tussen verschillende gebruikers in het publieke netwerk. Deze documenten zijn zo opgemaakt dat deze door de eindgebruikers bekeken kunnen worden met een Web Browser. Nou gaan we het niet over hebben hoe we dit kunnen bekijken (HTML) aangezien dit een ander onderwerp is. Het gaat er hier om hoe deze eindgebruikers met elkaar communiceren. Hoe vragen zij die documenten op? Hoe ziet het protocol eruit? Wat komt er allemaal bij kijken?</p>
-            <p>Twee eindgebruikers (vaak Server en Client) communiceren met elkaar via HTTP. Globaal gezien stuurt de Client (meestal een Web Browser) een HTTP request naar een Server. De server handelt deze request af en stuurt een response terug naar de Client.</p>
-          </div>
+			<span class="toggle">Wat is HTTP?</span>
+			<div class="toggle-wrap">
+				<p>HTTP<a class="source" href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HyperText Transfer Protocol</a> is een applicatie protocol dat aan de basis lag van het www. Het www (WorldWideWeb, of ook wel W3, of het Web) is in 1989 begonnen als een project binnen CERN door CERN-lid en wetenschapper Sir Tim Berners-Lee. Het web was en is een systeem bedoeld om documenten uit te wisselen tussen verschillende gebruikers in het publieke netwerk. Deze documenten zijn zo opgemaakt dat deze door de eindgebruikers bekeken kunnen worden met een Web Browser. Nou gaan we het niet over hebben hoe we dit kunnen bekijken (HTML) aangezien dit een ander onderwerp is. Het gaat er hier om hoe deze eindgebruikers met elkaar communiceren. Hoe vragen zij die documenten op? Hoe ziet het protocol eruit? Wat komt er allemaal bij kijken?</p>
+				<p>Twee eindgebruikers (vaak Server en Client) communiceren met elkaar via HTTP. Globaal gezien stuurt de Client (meestal een Web Browser) een HTTP request naar een Server. De server handelt deze request af en stuurt een response terug naar de Client.</p>
+			</div>
         </section>
+		
         <section>
-          <span>Welke functionaliteit biedt HTTP?</span>
-          <div>
+          <span class="toggle">Welke functionaliteit biedt HTTP?</span>
+          <div class="toggle-wrap">
             <p>HTTP biedt een uniforme manier voor applicaties om met elkaar te communiceren in een client/server model gebaseerd op stateless requests. Deze manier van communiceren gaat via het zogeheten request-response protocol wat dus HTTP in zijn geheel vormt. De recenste versie van het protocol is HTTP 1.1. Hier zijn wat extra functionaliteiten aan toegevoegd ten opzichte van HTTP 1.0.
 			<br>Het meest simpele vorm van een HTTP-request is het volgende:
 			<ul>
@@ -47,6 +51,7 @@
 				<li>De client ontvangt de response en verwerkt dit.</li></ul></p>
           </div>
         </section>
+		
       </div>
       <footer>
         <section>

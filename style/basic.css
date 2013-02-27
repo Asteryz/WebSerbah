@@ -55,6 +55,10 @@ section span
   background-color:#310880;
   color: #ECECEC;
 }
+section span.toggle:hover
+{
+	background-color:white;
+}
 /* Section content */
 section div
 {
