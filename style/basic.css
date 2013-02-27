@@ -10,9 +10,13 @@ header
 header h1
 {
   color:#FF1168;
+  padding-left:0.5em;
+  padding-top:0.5em;
 }
 header p
 {
+  padding-right:2em;
+  text-align:right;
   font-weight:bold;
   color:#8F8F8F;
 }
