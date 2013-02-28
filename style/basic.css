@@ -57,7 +57,7 @@ section span
 }
 section span.toggle:hover
 {
-	background-color:white;
+	background-color:pink;
 }
 /* Section content */
 section div
@@ -71,6 +71,10 @@ section div
 p
 {
   color:#8F8F8F;
+}
+section ul
+{
+	color:#8F8F8F;
 }
 footer
 {

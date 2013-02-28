@@ -5,6 +5,7 @@
     <script type="text/javascript" src="scripts/references.js"></script>
 	<script type="text/javascript" src="scripts/menu.js"></script>
 	<script type="text/javascript" src="scripts/toggle.js"></script>
+	<script type="text/javascript" src="scripts/autogen.js"></script>
     <link rel='stylesheet' type="text/css" href="style/basic.css">
     <title>HTTP</title>
   </head>
@@ -12,23 +13,8 @@
   <body>
   
     <div class="container">
-      <header>
-        <h1>HyperText Transfer Protocol</h1>
-        <p>Een website voor poort 80, door poort 80.</p>
-      </header>
-	  
-      <nav>
-        <section>
-          <span id="floatMenu">
-		  		<ul>
-			<li><a href="index.html">Hoofdpagina</a></li>
-		</ul>
-		<ul>
-			<li><a href="http.html">HTTP</a></li>
-		</ul>
-          </span>
-        </section>
-      </nav>
+	  <script type="text/javascript">Header();</script>
+	  <script type="text/javascript">NavigationMenu();</script>
 	  
       <div class="content">
         <section>
@@ -40,36 +26,21 @@
         </section>
 		
         <section>
-          <span class="toggle">Welke functionaliteit biedt HTTP?</span>
-          <div class="toggle-wrap">
+			<span class="toggle">Welke functionaliteit biedt HTTP?</span>
+			<div class="toggle-wrap">
             <p>HTTP biedt een uniforme manier voor applicaties om met elkaar te communiceren in een client/server model gebaseerd op stateless requests. Deze manier van communiceren gaat via het zogeheten request-response protocol wat dus HTTP in zijn geheel vormt. De recenste versie van het protocol is HTTP 1.1. Hier zijn wat extra functionaliteiten aan toegevoegd ten opzichte van HTTP 1.0.
-			<br>Het meest simpele vorm van een HTTP-request is het volgende:
+			<br>Het meest simpele vorm van een HTTP-request is het volgende:</p>
 			<ul>
 				<li>De client zendt een GET-request naar de server gebasseerd op een URI.</li>
 				<li>De server ontvangt dit en stuurt een response terug van het document.</li>
 				<li>De server sluit hierbij direct de HTTP-connectie met de client af.</li>
-				<li>De client ontvangt de response en verwerkt dit.</li></ul></p>
-          </div>
+				<li>De client ontvangt de response en verwerkt dit.</li>
+			</ul>
+        	</div>
         </section>
 		
       </div>
-      <footer>
-        <section>
-          <span>References</span>
-          <table class="references">
-            <!--Javascript is supposed to generate a sources overview here-->
-            <!--Column 1 link to the anchor-->
-            <!--Column 2 a description to the link-->
-            <!--Column 3 the actual url-->
-          </table>
-        </section>
-        <section>
-          <span>Sitemap</span>
-            <!--Javascript is supposed to generate a sitemap here-->
-        </section>
-        <p>Een website voor poort 80, door poort 80.</p>
-        <p>&copy Alper Aslan en Marc Smids</p>
-      </footer>
+	<script type="text/javascript">Footer();</script>
     </div>
   </body>
 </html>
