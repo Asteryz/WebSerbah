@@ -20,6 +20,15 @@ header p
   font-weight:bold;
   color:#ECECEC;
 }
+/*Creates a red border around the menu*/
+nav
+{
+  background-color:#9E1E4C;
+  padding-top:2em;
+  border-top-right-radius:1em;
+  border-bottom-left-radius:1em;
+}
+
 /* Website container */
 div.container
 {
@@ -39,6 +48,7 @@ div.container
 section
 {
   background-color:#ECECEC;
+  color:#8F8F8F;
 }
 /* Section title */
 section span
@@ -54,10 +64,6 @@ section span
   font-size:20pt;
   background-color:#310880;
   color: #ECECEC;
-}
-section span.toggle:hover
-{
-	background-color:white;
 }
 /* Section content */
 section div
@@ -112,8 +118,7 @@ table tr td
 #floatMenu {
 	position:absolute;
 	top:150px;
-	left:50%;
-	margin-left:300px;
+	left:70%;
 	width:200px;
 }
 #floatMenu ul {
