@@ -20,15 +20,6 @@ header p
   font-weight:bold;
   color:#ECECEC;
 }
-/*Creates a red border around the menu*/
-nav
-{
-  background-color:#9E1E4C;
-  padding-top:2em;
-  border-top-right-radius:1em;
-  border-bottom-left-radius:1em;
-}
-
 /* Website container */
 div.container
 {
@@ -41,14 +32,13 @@ div.container
   border-bottom-left-radius:2em;
 }
 /* Content area */
-.content
+div.content
 {
   margin-left:2em;
 }
 section
 {
   background-color:#ECECEC;
-  color:#8F8F8F;
 }
 /* Section title */
 section span
@@ -65,6 +55,10 @@ section span
   background-color:#310880;
   color: #ECECEC;
 }
+section span.toggle:hover
+{
+	background-color:pink;
+}
 /* Section content */
 section div
 {
@@ -77,6 +71,10 @@ section div
 p
 {
   color:#8F8F8F;
+}
+section ul
+{
+	color:#8F8F8F;
 }
 footer
 {
@@ -103,11 +101,11 @@ table
 }
 table tr:nth-child(2n)
 {
-  background-color:#B0B0B0;
+  background-color:#A0A0A0;
 }
 table tr:nth-child(2n+1)
 {
-  background-color:#a67df7;
+  background-color:#ff87b3
 }
 table tr td
 {
@@ -118,7 +116,8 @@ table tr td
 #floatMenu {
 	position:absolute;
 	top:150px;
-	left:70%;
+	left:50%;
+	margin-left:300px;
 	width:200px;
 }
 #floatMenu ul {

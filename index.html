@@ -1,30 +1,18 @@
-
 <!DOCTYPE HTML>
 <html>
   <head>
     <script type="text/javascript" src="libs/jquery.js"></script>
     <script type="text/javascript" src="scripts/references.js"></script>
 	<script type="text/javascript" src="scripts/menu.js"></script>
+	<script type="text/javascript" src="scripts/toggle.js"></script>
+	<script type="text/javascript" src="scripts/autogen.js"></script>
     <link rel='stylesheet' type="text/css" href="style/basic.css">
     <title>HTTP</title>
   </head>
   <body>	
     <div class="container">
-      <header>
-        <h1>HyperText Transfer Protocol</h1>
-        <p>Een website voor poort 80, door poort 80.</p>
-      </header>
-      <nav id="floatMenu">
-        <div class="content">
-          <section>
-            <span>Menu:</span>
-            <div>
-              <p><a href="index.html">Hoofdpagina</a></p>
-              <p><a href="http.html">HTTP</a></p>
-            </div>
-          </section>
-        </div>
-      </nav>
+    <script type="text/javascript">Header();</script>
+    <script type="text/javascript">NavigationMenu();</script>
       <div class="content">
         <section>
           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
@@ -45,23 +33,7 @@
           </div>
         </section>
       </div>
-      <footer>
-        <section>
-          <span>References</span>
-          <table class="references">
-            <!--Javascript is supposed to generate a sources overview here-->
-            <!--Column 1 link to the anchor-->
-            <!--Column 2 a description to the link-->
-            <!--Column 3 the actual url-->
-          </table>
-        </section>
-        <section>
-          <span>Sitemap</span>
-            <!--Javascript is supposed to generate a sitemap here-->
-        </section>
-        <p>Een website voor poort 80, door poort 80.</p>
-        <p>&copy Alper Aslan en Marc Smids</p>
-      </footer>
+      <script type="text/javascript">Footer();</script>
     </div>
   </body>
 </html>
