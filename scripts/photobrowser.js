@@ -17,7 +17,7 @@ $(document).ready(function()
         var thumbnailURL = basePhotoURL +'_s.jpg';
         var actualPhotoURL = basePhotoURL +'.jpg';
 
-        var photostring = '<a title="'+ rPhoto.title +'" href="'+ basePhotoURL +'"><img src="'
+        var photostring = '<a title="'+ rPhoto.title +'" href="'+ actualPhotoURL +'"><img src="'
                            + thumbnailURL +'" alt="'+ rPhoto.title +'"/></a>;'
 
         $(photostring).appendTo("#flickr");
