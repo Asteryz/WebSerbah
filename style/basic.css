@@ -20,6 +20,13 @@ header p
   font-weight:bold;
   color:#ECECEC;
 }
+nav
+{
+  background-color:#9E1E4C;
+  border-top-right-radius:2em;
+  border-bottom-left-radius:2em;
+  padding-top:2em;
+}
 /* Website container */
 div.container
 {
@@ -116,8 +123,7 @@ table tr td
 #floatMenu {
 	position:absolute;
 	top:150px;
-	left:50%;
-	margin-left:300px;
+	left:70%;
 	width:200px;
 }
 #floatMenu ul {

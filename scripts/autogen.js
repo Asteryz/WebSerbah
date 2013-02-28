@@ -3,7 +3,7 @@ function NavigationMenu(){
 	var source = ["index.html", "http.html"];
 	var navID = "floatMenu";
 	
-	document.write("<nav id=\"" + navID + "\"><div><section><span>Menu:</span><div>");
+	document.write("<nav id=\"" + navID + "\"><div class=\"content\"><section><span>Menu:</span><div>");
 	for(var i = 0; i < menu.length; i++) {
 		document.write("<p><a href=\"" + source[i] + "\">" + menu[i] + "</a></p>\n");
 	}
