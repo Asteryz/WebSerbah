@@ -1,13 +1,13 @@
 function NavigationMenu(){
 	var menu = ["Hoofdpagina", "HTTP"];
 	var source = ["index.html", "http.html"];
-	var spanID = "floatMenu";
+	var navID = "floatMenu";
 	
-	document.write("<nav><section><span id=\"" + spanID + "\">");
+	document.write("<nav id=\"" + navID + "\"><div><section><span>Menu:</span><div>");
 	for(var i = 0; i < menu.length; i++) {
-		document.write("<a href=\"" + source[i] + "\">" + menu[i] + "</a>\n");
+		document.write("<p><a href=\"" + source[i] + "\">" + menu[i] + "</a></p>\n");
 	}
-	document.write("</span></section></nav>");
+	document.write("</div></section></div></nav>");
 }
 
 function Footer() {
