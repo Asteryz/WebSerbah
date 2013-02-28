@@ -1,6 +1,6 @@
 function NavigationMenu(){
-	var menu = ["Hoofdpagina", "HTTP"];
-	var source = ["index.html", "http.html"];
+	var menu = ["Hoofdpagina", "HTTP", "Photobrowser"];
+	var source = ["index.html", "http.html", "photobrowser.html"];
 	var navID = "floatMenu";
 	
 	document.write("<nav id=\"" + navID + "\"><div class=\"content\"><section><span>Menu:</span><div>");
